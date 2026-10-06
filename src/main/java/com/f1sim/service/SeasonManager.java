@@ -30,11 +30,11 @@ public class SeasonManager {
 
         teams.addAll(List.of(redBull, ferrari, mercedes, mclaren, aston));
 
-        drivers.add(new Driver("Max Verstappen", redBull, 98));
-        drivers.add(new Driver("Sergio Perez", redBull, 86));
+        drivers.add(new Driver("Max Verstappen", redBull, 90));
+        drivers.add(new Driver("Isack hadjar", redBull, 86));
         drivers.add(new Driver("Charles Leclerc", ferrari, 94));
-        drivers.add(new Driver("Carlos Sainz", ferrari, 91));
-        drivers.add(new Driver("Lewis Hamilton", mercedes, 95));
+        drivers.add(new Driver("Lewis Hamilton", ferrari, 89));
+        drivers.add(new Driver("Kimi Antonelli", mercedes, 95));
         drivers.add(new Driver("George Russell", mercedes, 90));
         drivers.add(new Driver("Lando Norris", mclaren, 94));
         drivers.add(new Driver("Oscar Piastri", mclaren, 89));
