@@ -22,10 +22,10 @@ public class SeasonManager {
     }
 
     private void seedInitialData() {
-        Team redBull = new Team("Red Bull Racing", 95);
+        Team redBull = new Team("Red Bull Racing", 89);
         Team ferrari = new Team("Ferrari", 91);
-        Team mercedes = new Team("Mercedes", 89);
-        Team mclaren = new Team("McLaren", 93);
+        Team mercedes = new Team("Mercedes", 94);
+        Team mclaren = new Team("McLaren", 90);
         Team aston = new Team("Aston Martin", 84);
 
         teams.addAll(List.of(redBull, ferrari, mercedes, mclaren, aston));
